@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+#galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 55vh;
+}
+
+img{
+    width: 200px;
+}
+
+.contGaleria{
+    width: 200px;
+    height: 280px;
+    margin: 8px;
+    background-color: #383838;
+    padding-bottom: 2rem;
+}
+
+.cardTitulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.parCard{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    color: #fff;
+    text-align: left;
+    padding: 0.5rem;
+    /* padding-top: 0.8rem; */
+}
+
+.parLink{
+   text-align: left;
+   padding: 0.5rem;
+   font-size: 0.8rem;
+}
+
+#link{
+    color: rgb(78, 166, 218);
+}
